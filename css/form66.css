@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+
+
+.container {
+	/* background-color: #fcfcfc; */
+	background: #a4a39e;
+	border-radius: 30px;
+    color: #D3756B;
+	padding: 25px 40px;
+	width: 50%;
+	max-width: 400px;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+
+
+
+
+.container form .userdet{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+
+}
+
+/*.form {
+	padding: 30px 40px;	
+}*/
+
+
+
+.input_field label {
+	display:block;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.input_field input {
+	border: 2px solid rgb(0, 0, 0);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+	border-radius: 4px;
+	font-family: inherit;
+	height: 45px;
+	width: 100%;
+	outline: none;
+}
+
+.input_field input:focus {
+	border-color: rgb(255, 255, 255);
+    border-width: 3px;
+}
+
+.input_field .success input {
+	border-color: #2ecc71;
+}
+
+.input_field .error input {
+	border-color: #e74c3c;
+}
+
+.input_field i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.input_field small {
+	color: #b4b3b3;
+	position: absolute;
+	left: 10px;
+	top: 70px;
+	
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
+
+
+form .btn{
+    
+    height: 25px;
+    margin: 15px 0;
+}
+
+form .btn input{
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 00;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(15deg,#abacad);
+}
+
+form .btn input:hover{
+    background: linear-gradient(-15deg,#011733,#7d7a7a);
+	color: #000155;
+	font-weight: 100;
+}
+.container h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #332902;
+  }
+ .btn input[type="submit"]{
+	border: 0px;
+	margin-top: 0px;
+	padding: 2px;
+	text-align: center;
+	width: 30%;
+	background: #f9f8f8;
+	color: #332902;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  .input_field{
+	margin-bottom: 3px;
+  }
+  .container textarea{
+	border: 1px solid #696868;
+	width: 100%;
+	padding: 10px;
+  }
+  .container textarea{
+	size: 4px;
+	height: 30px;
+  }
+
+
+
+#dot-1:checked~ .category label .one,
+#dot-2:checked~ .category label .two,
+#dot-3:checked~ .category label .three{
+    border-color: #868484;
+    background: #0d0081;
+}
+
+
